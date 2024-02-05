@@ -6,11 +6,14 @@ Drastic.BlazorWebView.Gtk is an *__experimental__* wrapping of Microsoft.AspNetC
 
 __IMPORTANT__: This project only supports Linux, as it depends on GirCore.WebKit which only supports Linux. 
 
-__IMPORTANT__: This is *__experimental__*. Do not depend on this project for anything serious. If you do use this, please file issues, but understand that support is limited to none. When it doubt, fork.
+__IMPORTANT__: This project is built with GitCore `0.4.x`. The `0.5.x` previews builds include breaking changes to APIs and dependencies that would make it hard to support both. 
+
+__IMPORTANT__: This is *__experimental__*. Do not depend on this project for anything serious. If you do use this, please file issues, but understand that support is limited to none and your issues may not be fixed by me. When it doubt, fork.
 
 ### Dependencies
 - [GirCore.Gtk-4.0](https://www.nuget.org/packages/GirCore.Gtk-4.0)
 - [GirCore.WebKit-6.0](https://www.nuget.org/packages/GirCore.WebKit-6.0)
+- [Microsoft.AspNetCore.Components.WebView](https://www.nuget.org/packages/Microsoft.AspNetCore.Components.WebView)
 
 While not a source dependency, you will most likely need [GirCore.Adw-1](https://www.nuget.org/packages/GirCore.Adw-1) to host your application.
 
