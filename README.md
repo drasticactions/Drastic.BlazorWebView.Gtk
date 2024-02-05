@@ -4,6 +4,8 @@
 
 Drastic.BlazorWebView.Gtk is an *__experimental__* wrapping of Microsoft.AspNetCore.Components.WebView with a WebKit-based GTK View, bound by [Gir.Core](https://github.com/gircore/gir.core). Based on [JinShil/BlazorWebView](https://github.com/JinShil/BlazorWebView), this project tries to match the maintained [Microsoft](https://github.com/dotnet/maui/tree/main/src/BlazorWebView) implementation for WPF and WinForms. It's a proof-of-concept for proposing adding support for this to .NET and .NET MAUI directly.
 
+![image](https://raw.githubusercontent.com/drasticactions/Drastic.BlazorWebView.Gtk/main/.github/images/gtkwebview.png)
+
 __IMPORTANT__: This project only supports Linux, as it depends on GirCore.WebKit which only supports Linux. 
 
 __IMPORTANT__: This project is built with GitCore `0.4.x`. The `0.5.x` previews builds include breaking changes to APIs and dependencies that would make it hard to support both. 
