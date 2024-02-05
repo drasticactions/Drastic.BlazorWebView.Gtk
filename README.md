@@ -1,6 +1,6 @@
 # Drastic.BlazorWebView.Gtk
 
-[![NuGet Version](https://img.shields.io/nuget/v/BlazorWebView.Gtk.svg)](https://www.nuget.org/packages/Drastic.BlazorWebView.Gtk/) ![License](https://img.shields.io/badge/License-MIT-blue.svg)
+[![NuGet Version](https://img.shields.io/nuget/v/Drastic.BlazorWebView.Gtk.svg)](https://www.nuget.org/packages/Drastic.BlazorWebView.Gtk/) ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 Drastic.BlazorWebView.Gtk is an *__experimental__* wrapping of Microsoft.AspNetCore.Components.WebView with a WebKit-based GTK View, bound by [Gir.Core](https://github.com/gircore/gir.core). Based on [JinShil/BlazorWebView](https://github.com/JinShil/BlazorWebView), this project tries to match the maintained [Microsoft](https://github.com/dotnet/maui/tree/main/src/BlazorWebView) implementation for WPF and WinForms. It's a proof-of-concept for proposing adding support for this to .NET and .NET MAUI directly.
 
