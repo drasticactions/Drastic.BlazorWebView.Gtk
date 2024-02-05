@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.BlazorWebView.Gtk.Test", "Drastic.BlazorWebView.Gtk.Test.csproj", "{3DECD9CA-1733-46D4-B6D1-430F19D0F70F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.BlazorWebView.Gtk", "..\..\src\Drastic.BlazorWebView.Gtk\Drastic.BlazorWebView.Gtk.csproj", "{5C444849-24A6-4341-A831-1F5C30CEE368}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DECD9CA-1733-46D4-B6D1-430F19D0F70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DECD9CA-1733-46D4-B6D1-430F19D0F70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DECD9CA-1733-46D4-B6D1-430F19D0F70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DECD9CA-1733-46D4-B6D1-430F19D0F70F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C444849-24A6-4341-A831-1F5C30CEE368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C444849-24A6-4341-A831-1F5C30CEE368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C444849-24A6-4341-A831-1F5C30CEE368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C444849-24A6-4341-A831-1F5C30CEE368}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

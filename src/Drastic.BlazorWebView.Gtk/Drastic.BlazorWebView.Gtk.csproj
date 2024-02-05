@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsPackable>true</IsPackable>
+        <RootNamespace>Microsoft.AspNetCore.Components.WebView.Gtk</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="GirCore.Gtk-4.0" />
+        <PackageReference Include="GirCore.WebKit-6.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebView" />
+    </ItemGroup>
+</Project>
