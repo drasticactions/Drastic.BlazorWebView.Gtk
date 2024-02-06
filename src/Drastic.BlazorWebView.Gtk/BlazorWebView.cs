@@ -145,7 +145,7 @@ public sealed class BlazorWebView : WebKit.WebView
             this,
             this.services!,
             this.componentsDispatcher,
-            this.CreateFileProvider(hostPageFullPath),
+            this.CreateFileProvider(contentRootDirFullPath),
             this.RootComponents.JSComponents,
             contentRootRelativePath,
             hostPageRelativePath,
